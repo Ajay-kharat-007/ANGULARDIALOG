@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "ajay Ganesh Kharat",
+      "age": "22",
+      "phone": 223232,
+      "email": "Ajay@gmail.com"
+    }
+  ]
+}

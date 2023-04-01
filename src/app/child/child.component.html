@@ -1,0 +1,11 @@
+
+<div class="container">
+    <form [formGroup]="userForm" (ngSubmit)="registrUser()">
+        <input type="text" name="id" placeholder="id" formControlName="id">
+        <input type="text" name="name" placeholder="name" formControlName="name">
+        <input type="text" name="age" placeholder="age" formControlName="age">
+        <input type="text" name="phone" placeholder="phone" formControlName="phone">
+        <input type="email" name="email" placeholder="email" formControlName="email">
+        <input type="submit" value="submit">
+    </form>
+</div>
